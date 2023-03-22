@@ -4,9 +4,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Mi primera página</title>
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     </head>
 
-    <body>
+    <body bgcolor="#000000" text="#ffffff" link="#ffff33" alink="#ffffcc" vlink="ffff00">
         <p><b>Bienvenido,</b></p>
         <p>Estás en la página <b>Comida para Todos los gustos</b>.</p>
         <p>Aquí aprenderás recetas fáciles y deliciosas.</p>
@@ -14,7 +15,96 @@
         <p align="center">Texto alineado al centro</p>
         <p align="right">Texto alisdfsfnjkhklhlkhkeado a la derecha</p>
         <b>hola</b>
+        <br>
+        <i>Texto en itálica</i>
+        <br>
+        <b>Esto sólo está en negrita <i>y esto en negrita e itálica</i></b>
+        <font color="#FF0000">Rojo</font>
+        <br>
+        <ol>
+        <li><a href="./ejercicioEncabezados.html">ejercicioEncabezados</a></li>
+        <li><a href="./ejercicioParrafos.html">ejercicioParrafos</a></li>
+        </ol>
 
-        
+        <img src="./img/delfin.jpeg" alt="delfin" width="550px" height="250px">
+        <p>Reglas de convivencia</p>
+         <ol start="2" type="A">
+         <li>No hacer ruidos molestos
+         <li>Ser amable con los vecinos
+         </ol>
+
+         <table>
+            <tr>
+            <td>Celda 1, linea 1</td>
+            <td> Celda 2, linea 1</td>
+            </tr>
+            <tr>
+            <td> Celda 1, linea 2</td>
+            <td> Celda 2, linea 2</td>
+            </tr>
+         </table>
+
+         <input type=button value="Texto escrito en el botón">
+
+
+         <form action="mailto:juan@gmail.com" method="post"
+enctype="text/plain"> Nombre <input type="text" name="nombre" size="30"
+maxlength="100">
+<br>
+Email <input type="text" name="email" size="25" maxlength="100" value="@">
+<br>
+Población <input type="text" name="poblacion" size="20" maxlength="60">
+<br>
+Sexo
+<br>
+<input type="radio" name="sexo" value="Varon" checked> Hombre
+<br>
+<input type="radio" name="sexo" value="Hembra"> Mujer
+<br>
+<br>
+Frecuencia de los viajes
+<br>
+<select name="utilizacion">
+<option value="1">Varias veces al dia
+<option value="2">Una vez al dia
+<option value="3">Varias veces a la semana
+<option value="4">varias veces al mes
+</select>
+<br>
+<br>
+Comentarios sobre su satisfacción personal
+<br>
+<textarea cols="30" rows="7" name="comentarios"></textarea>
+<br>
+<br>
+<input type="checkbox" name="recibir_info" checked> Deseo recibir notificación de las novedades
+en las líneas de autobuses.
+<br>
+<br>
+<input type="submit" value="Enviar formulario">
+<br>
+<br>
+<input type="Reset" value="Borrar todo">
+</form>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26245.472942814136!2d-58.58140537641804!3d-34.687921060024586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc622f9709805%3A0xb5f373c7721a50a5!2sSan%20Justo%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1678747038466!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- IFrame de Youtube -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gpe_2ZbOpwY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p class="textoMarron">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt odio animi quod non, voluptates unde accusantium id tempora praesentium quidem, asperiores tempore labore error modi ea. Officia eligendi accusantium nobis.Quas quam nobis aliquam natus corporis quibusdam soluta magni asperiores atque. Sed ipsam alias sit. Rerum quasi, in earum maiores soluta, corporis architecto reprehenderit voluptatibus qui, nihil obcaecati enim praesentium!</p>
+<p class="colorModificado">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nostrum eum nam blanditiis quae reprehenderit provident a asperiores, eos, veniam tempore, explicabo quas culpa dicta dolorem ullam minima ex sequi?Vel nemo accusantium magnam iure laboriosam aut voluptate non deleniti, nihil incidunt quaerat quis a repudiandae provident suscipit minus quae in ratione ex unde ut vero! Quisquam amet aperiam consectetur?</p>
+<!-- Formulario -->
+<form action="#">
+    <label for="nombre">Nombre</label>
+    <input type="text" placeholder="Ingrese su nombre" name="nombre" id="nombre" required>
+    <br><br>
+    <label for="mail">Email</label>
+    <input type="email" placeholder="Ingrese su email" id="mail" name="email" required>
+    <br><br>
+    <label for="contra">Password</label>
+    <input type="password" placeholder="Ingrese su contraseña" id="contra" name="contra" required>
+    <br><br>
+    <input type="submit" value="Enviar">
+</form>
+
     </body>
 </html>
